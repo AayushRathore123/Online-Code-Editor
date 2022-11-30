@@ -10,7 +10,7 @@ export default function App() {
       <Navbar />
       <div className='box'>
       <h3>CoDio</h3>
-      <Link className='know' to='#'>Get Started</Link>
+      <Link className='know' to='/Compiler'>Get Started</Link>
       </div>
       
     </div>

@@ -94,6 +94,12 @@ app.get("/problem", (req, res) => {
   });
 });
 
+app.get('/logout',(res,req) =>{
+  console.log("Hello my logout page")
+  res.clearCookie('jwtoken',{path:'/Homepage'});
+  res.status(200).send("User logout");
+})
+
 app.listen(port, () => {
   console.log(`Server is running at port ${port}`);
 });
