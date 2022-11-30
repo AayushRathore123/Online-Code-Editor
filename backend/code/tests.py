@@ -10,8 +10,8 @@ def get_test_cases():
 
 def get_expected_outputs():
     return {
-        "SMALL_INPUT": 3,
-        "LARGE_INPUT": 4,
+        "Test1": 3,
+        "Test2": 4,
      }
 
 
