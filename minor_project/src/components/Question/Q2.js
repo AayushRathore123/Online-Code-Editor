@@ -10,7 +10,7 @@ function Q2() {
     let xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = () => {
-        if (xhr.readyState == 4 && xhr.status == 200) {
+        if (xhr.readyState === 4 && xhr.status === 200) {
             document.getElementById("results").innerHTML = xhr.responseText;
             btn.style.display = "initial";
         }
@@ -18,7 +18,7 @@ function Q2() {
 
     xhr.open("POST", "http://localhost:8000/test/");
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.send("code=" + code);
+    xhr.send("code=" + code+ "1");
 }
   return (
     <div>
