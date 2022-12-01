@@ -1,6 +1,8 @@
 import React,{useEffect} from 'react';
+import {Link} from 'react-router-dom';
 import HomeNav from './homenav';
-import {Table,TableBody,TableCell,TableHead,TableRow} from '@mui/material';
+import data from './data';
+import './Problem.css'
 const Problem=() => {
 
     // useEffect(()=>{
@@ -12,22 +14,26 @@ const Problem=() => {
     //     console.log(response);
     // }
     return (
-    <div>
+    <div >
         <HomeNav/>
-        <Table>
-            <TableHead>
-                <TableRow>
-                <TableCell>S.No.</TableCell>
-                <TableCell>Question</TableCell>
-                <TableCell>Solution</TableCell>
-                <TableCell>Difficulty</TableCell>
-                </TableRow>
-            </TableHead>
-            <TableBody>
-
-            </TableBody>
-
-        </Table>
+      <table>
+        <tr>
+          <th>S.No.</th>
+          <th>Question</th>
+          <th>Type</th>
+          <th>Difficulty</th>
+        </tr>
+        {data.map((val, key) => {
+          return (
+            <tr key={key}>
+                <td>{val.sno}</td>
+              <Link to={val.link}><td>{val.name}</td></Link>
+              <td>{val.type}</td>
+              <td>{val.difficulty}</td>
+            </tr>
+          )
+        })}
+      </table>
     </div>
   )
 }

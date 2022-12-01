@@ -39,13 +39,14 @@ app.post("/register", (req, res) => {
 
 app.post("/test", (req, res, next) => {
   let code = req.body["code"];
-
+  let qno = code[code.length-1];
+  code = code.slice(0,-1);
+  
   try {
-    console.log("Hello");
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = path.dirname(__filename);
     fs.writeFileSync(path.join(__dirname, CODE_FOLDER, "input_code.py"), code);
-    const proc = exec.execSync("python3 " + path.join(CODE_FOLDER, "tests.py"));
+    const proc = exec.execSync("python3 " + path.join(CODE_FOLDER, "tests.py ") + qno);
     const results = proc.toString().replace("\n", "<br>");
     return res.send(results);
   } catch (error) {
@@ -93,6 +94,12 @@ app.get("/problem", (req, res) => {
     }
   });
 });
+
+app.get('/logout',(res,req) =>{
+  console.log("Hello my logout page")
+  res.clearCookie('jwtoken',{path:'/Homepage'});
+  res.status(200).send("User logout");
+})
 
 app.listen(port, () => {
   console.log(`Server is running at port ${port}`);

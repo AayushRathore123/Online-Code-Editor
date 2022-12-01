@@ -1,3 +1,7 @@
 def solution(arr):
- max=arr[2]
- return max
+  maximum = 100
+  
+  for elem in arr:
+    if elem < maximum:
+      maximum = elem
+  return maximum

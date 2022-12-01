@@ -24,7 +24,7 @@ const HomeNav = ({setLoginUser}) =>{
             <Link className='btn3' to='/Home'>Home</Link>
             <Link className='btn3' to='/Dashboard'>Dashboard</Link>
               <Link className='btn3' to='/Problem'>Problem</Link>
-              <Link className='btn3' onClick={() => setLoginUser({})}> Logout </Link>
+              <Link className='btn3' to='/logout'> Logout </Link>
              
             </Nav>
           </Navbar.Collapse>
