@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:1&display=swap');
+
+.containerQuestion{
+    background: rgb(227, 240, 241);
+    height:100vh;
+   
+}
+
+textarea {
+    overflow: scroll;
+    height: 100vh;
+    
+}
+.code-area{
+   
+    border-left: 2px solid rgb(1, 49, 18);
+  
+}
+.question h2{
+    margin:5px;
+    font-size: 25px;
+    font-family:"Playfair Display";
+    font-weight: bold;
+    
+}
+.question div{
+    margin:10px;
+    padding-top: 12px;
+    color: black;
+}
+
+#runtestsbtn{
+    background-color: rgb(6, 105, 81);
+    border: none;
+    border-radius: 5px;
+    size:15px;
+    font-weight: normal;
+    
+    padding:8px 12px;
+}
+#results{
+    font-size:20px;
+}

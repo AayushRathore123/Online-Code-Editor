@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,600&display=swap');
+
+
+.btn3{
+    text-decoration: none;
+    border:2px solid rgb(8, 82, 77) ;
+    color: rgb(9, 74, 69);
+    font-weight: bold;
+    font-size: 22px;
+    padding: 1px 15px;
+    margin: 0 5px;
+    border-radius: 2px;
+    font-family: "Cormorant Garamond";
+
+}
+.btn3:hover{
+    background-color: rgb(9, 81, 75);;
+    color:white;
+    font-weight: normal;
+   
+}
+
+
+img {
+    width:9.5%;
+   
+}
+
+
+div span{
+    
+    color: rgb(3, 56, 52) ;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 40px;
+    margin-left: 12px;
+    margin-top: 30px;
+    text-decoration: none;
+
+}
+div span:hover{
+    text-decoration: none;
+}

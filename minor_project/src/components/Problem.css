@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:1&display=swap');
+table {
+ 
+  border: 2px solid #046f58;;
+  width: 100%;
+  height: 200px;
+}
+tr:nth-child(odd) {
+  background-color: #dbede8e9;
+}
+td{
+  font-family:"Playfair Display";
+  font-size: 19px;
+}
+tr:hover {
+  background-color: #baddd3e9;
+}
+
+th {
+  background-color: #046f58;
+  color: white;
+  font-size: 19px;
+  font-weight: normal;
+  font-family:"Playfair Display";
+}
+
+
+tr {
+  text-align: center;
+  
+}
