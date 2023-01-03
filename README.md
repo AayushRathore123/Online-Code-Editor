@@ -8,6 +8,7 @@ Moreover, it can be used by companies during the recruitment of software develop
 + They can also solve different of questions of array and according to difficulty level. 
 
 ## Getting Started
+In the project directory-
 + Open Terminal
   + cd backend
   + npm install
