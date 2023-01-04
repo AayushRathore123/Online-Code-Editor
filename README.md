@@ -23,10 +23,19 @@ In the project directory-
   + npm install
   + npm start 
 #### <br/> open http://localhost:3000/ to see it in your browser
-##Screenshots
+## Screenshots
+![image](https://user-images.githubusercontent.com/110801658/210501880-a4b41577-1f41-4146-bac5-9bb4ef571c21.png)
+
+![image](https://user-images.githubusercontent.com/110801658/210502076-7416dd54-bfae-4456-a04f-727eede0fdcc.png)
+
+![image](https://user-images.githubusercontent.com/110801658/210502821-612c5154-2019-42ad-9ac3-e4a8c11fdbfa.png)
+
+![image](https://user-images.githubusercontent.com/110801658/210502903-ff6b8aad-976d-4766-9cc5-c0c9894b5e37.png)
+
+![image](https://user-images.githubusercontent.com/110801658/210504509-a5cfb14d-2bd9-41b4-8b87-254079aea6c7.png)
 
 ## Learn More
-To learn more about tool and technologies, you can refer this following resources:
+To learn more about tools and technologies, you can refer this following resources:
 + [React](https://reactjs.org/)
 + [Node.js](https://nodejs.org/en/about/)
 + [MongoDB](https://www.mongodb.com/)
