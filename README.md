@@ -1,5 +1,5 @@
 # Online Code Editor
-Online Code Editor is a free and open-source online real-time code editor that allows you to write, execute and test your code using a c and python languages.
+Online Code Editor is a free and open-source online real-time code editor that allows you to write, execute and test your code using c and python languages.
 It'll be perfect for anybody who wants to quickly write and run some code without opening a full-featured IDE on their computer.
 Moreover, it can be used by companies during the recruitment of software developers. This will help companies to administer these tests and score the candidates based on the performance of their code when run against some test cases.
 
