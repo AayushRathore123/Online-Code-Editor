@@ -8,6 +8,11 @@ Moreover, it can be used by companies during the recruitment of software develop
 + They can also solve different of questions of array and according to difficulty level. 
 
 ## Getting Started
+### Pre-requisites
+Make sure you have installed 
+- MongoDB
+- Node.js
+### Environment Development
 In the project directory-
 + Open Terminal
   + cd backend
@@ -18,5 +23,10 @@ In the project directory-
   + npm install
   + npm start 
 #### <br/> open http://localhost:3000/ to see it in your browser
+##Screenshots
 
-## Installation
+## Learn More
+To learn more about tool and technologies, you can refer this following resources:
++ [React](https://reactjs.org/)
++ [Node.js](https://nodejs.org/en/about/)
++ [MongoDB](https://www.mongodb.com/)
