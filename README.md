@@ -5,7 +5,7 @@ Moreover, it can be used by companies during the recruitment of software develop
 
 ### The aim of this full-stack web application is to provide an instant online coding and test platform and to provide practice coding questions.
 + It allow users to create a new account or log in to the existing account to access saved files.
-+ They can also solve different of questions of array and according to difficulty level. 
++ They can also solve different types of questions and according to their difficulty level. 
 
 ## Getting Started
 ### Pre-requisites
