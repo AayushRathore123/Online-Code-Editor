@@ -7,6 +7,12 @@ Moreover, it can be used by companies during the recruitment of software develop
 + It allow users to create a new account or log in to the existing account to access saved files.
 + They can also solve different types of questions and according to their difficulty level. 
 
+This project is based on MERN stack. MERN stands for MongoDB, Express, React, and Node, after the four key technologies that make up the stack.
++ MongoDB — document database
++ Express(.js) — Node.js web framework
++	React(.js) — a client-side JavaScript framework
++	Node(.js) — the premier JavaScript web server
+
 ## Getting Started
 ### Pre-requisites
 Make sure you have installed 
