@@ -32,6 +32,10 @@ In the project directory-
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/110801658/210501880-a4b41577-1f41-4146-bac5-9bb4ef571c21.png)
 
+![image](https://github.com/AayushRathore123/Online-Code-Editor/assets/110801658/36e38c7d-e071-457f-8d9b-4b64e5bb26aa)
+
+![image](https://github.com/AayushRathore123/Online-Code-Editor/assets/110801658/26b1e389-1a12-45ad-964d-b9e016f4717e)
+
 ![image](https://user-images.githubusercontent.com/110801658/210502076-7416dd54-bfae-4456-a04f-727eede0fdcc.png)
 
 ![image](https://user-images.githubusercontent.com/110801658/210502821-612c5154-2019-42ad-9ac3-e4a8c11fdbfa.png)
